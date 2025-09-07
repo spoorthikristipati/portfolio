@@ -1,0 +1,267 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa; /* soft background */
+  color: #333;
+}
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 1rem;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #34495e;
+}
+
+nav a {
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #2980b9;
+  border-radius: 5px;
+}
+
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+#education ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#education li {
+  margin-bottom: 0.5rem;
+}
+#certificates h3 {
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+#certificates ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+
+#certificates li {
+  margin-bottom: 0.5rem;
+}
+#skills h3 {
+  color: #2c3e50;
+  margin-top: 1rem;
+}
+
+#skills p {
+  font-weight: bold;
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+#contact a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 2rem 1rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#projects .project-card {
+  background: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+#projects .project-card:hover {
+  transform: scale(1.03);
+  background: #d6eaf8;
+}
+#skills p {
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#skills a {
+  color: #e74c3c;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+#skills a:hover {
+  text-decoration: underline;
+}
+#contact p {
+  text-align: center;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+#contact a {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+/* Main headings underline */
+section h2 {
+  position: relative;
+  display: block;        /* take full width */
+  padding-bottom: 8px;   /* space between text and line */
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  text-align: center;    /* optional: center headings */
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 60px;           /* fixed width underline */
+  height: 4px;           /* thickness */
+  background-color: #2980b9; /* color */
+  margin: 5px auto 0;    /* center the underline */
+  border-radius: 2px;
+}
+/* Animated underline for main headings */
+section h2 {
+  position: relative;
+  display: block;
+  padding-bottom: 8px;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-align: center; /* centers heading */
+  font-size: 2rem;
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 0; /* start with 0 width */
+  height: 4px;
+  background-color: #2980b9;
+  margin: 5px auto 0; /* centers the underline */
+  border-radius: 2px;
+  transition: width 0.5s ease-in-out; /* animation effect */
+}
+
+/* Animate underline when heading appears */
+section h2:
+/* Main headings with animated underline */
+section h2 {
+  position: relative;
+  display: block;
+  padding-bottom: 8px;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  text-align: center;
+  font-size: 2rem;
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 0; /* starts at 0 */
+  height: 4px;
+  background-color: #2980b9;
+  margin: 5px auto 0;
+  border-radius: 2px;
+  animation: slideIn 1s forwards; /* run animation */
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60px; /* final width of underline */
+  }
+}
